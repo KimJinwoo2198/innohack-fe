@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mobile base adjustments */
+html, body {
+	min-height: 100dvh;
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* Safe area helpers */
+.safe-bottom {
+	padding-bottom: env(safe-area-inset-bottom);
+}
+.safe-top {
+	padding-top: env(safe-area-inset-top);
+}
