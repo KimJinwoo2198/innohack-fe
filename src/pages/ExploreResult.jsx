@@ -117,7 +117,7 @@ export default function ExploreResult() {
 				</div>
 			</div>
 
-			<QuestionCTA />
+			<QuestionCTA foodName={foodName} />
 
 			<Footer />
 		</main>

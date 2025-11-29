@@ -38,6 +38,7 @@ export default function Explore() {
           },
         }
       );
+      console.log(response.data);
       navigate("/explore/result", {
         state: {
           result: response.data,
